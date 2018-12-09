@@ -16,3 +16,5 @@ end
 
 # Be careful when adding to this file. Nearly any error can crash the VM and
 # cause a reboot.
+
+# :os.cmd('vcgencmd measure_temp') |> to_string() |> String.split(["=", "'"]) |> Enum.at(1)
